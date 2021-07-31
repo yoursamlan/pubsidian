@@ -23,9 +23,20 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 - Search your note from a larger database.
 
 ## Dependency
-- Only [d3.js](https://d3js.org) for the Graph. Apart from that, written completely in vanilla JS. No other JS library is used.
+- Only [d3.js](https://d3js.org) for generating the Graph. Apart from that, written completely in vanilla JS. No other JS library is used.
 
 ## Why this project?
 - For the last couple of months, I'm using OBSIDIAN.md, a fantastic note-taking app, for tracking my studies and boosting productivity and **I LOVE IT**. But, after using for a while, yesterday, when I was about to present couple of notes to my friend, I had faced some serious challenges, publishing my notes.
-- Browsing into the forum, I've come to know about Obsidian-Publish and some other alternatives. While [Obsidian publish](https://obsidian.md/publish)costs **8$ per month and works flawlessly** (which is btw a lot for the students like me with zero income😢), I have faced a hard time understanding its free alternatives. Also, all free alternatives lack the most interesting feature of OBSIDIAN, a.k.a the **Graph View**.
-- That's why after 20+ hours of code and 6 cups of coffee, here's my version of the free Obsidian Publish with <i>Graph View </i>🥳🥳...
+- Browsing into the forum, I've come to know about Obsidian-Publish and some other alternatives. While [Obsidian publish](https://obsidian.md/publish) costs **8$ per month and works flawlessly** (which is btw a lot for the students like me with zero income😢), I have faced a hard time understanding its free alternatives. Also, all free alternatives lack the most interesting feature of OBSIDIAN, a.k.a the **Graph View**.
+- That's why after 20+ hours of code and 6 cups of coffee, here's [my version](https://yoursamlan.github.io/pubsidian) of the free Obsidian Publish with **Graph View**🥳🥳...
+
+## Things to DO...
+- [ ] Making the process fully automatic. So that, you can convert your whole vault with just one click.
+- [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
+- [ ] Theme supports and other customization.
+
+If you have any idea/ suggestion, please put it in the issues.
+
+If you love my work, you can [buy me a coffee](https://www.buymeacoffee.com/yoursamlan).
+
+Thank you :)
