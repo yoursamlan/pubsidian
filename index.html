@@ -1,0 +1,105 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="./favicon.png" />
+	<title>NOTEBOOK</title>
+	<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="mySidebar" class="sidebar">
+			<a href="javascript:void()" class="closebtn" onclick="closeNav()">×</a>
+
+			<div id="content">
+				<div id='sideheader'>
+					<!--img src="logo/logo.png" id="logo" alt="logo"-->
+					<h4 id="headtext">MENU </h4>
+					<!--h2 id="menuhead">Menu</h2-->
+				</div>
+
+				<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+				<ul id="myMenu">
+					<!--li><a href="#" onclick="localStorage.removeItem('CID'); location.reload()"; id="0">Welcome</a></li-->
+					<li><a href="#" onclick="callContent(this)" id="0">A climate risk on extreme weather events</a></li>
+					<li><a href="#" onclick="callContent(this)" id="1">An unproductive idea</a></li>
+					<li><a href="#" onclick="callContent(this)" id="2">Empowering nature with biocentric jurisprudence</a></li>
+					<li><a href="#" onclick="callContent(this)" id="3">A Kerala model for an anti discrimination law</a></li>
+					<li><a href="#" onclick="callContent(this)" id="4">Evaluating India’s options in Afghanistan</a></li>
+					<li><a href="#" onclick="callContent(this)" id="5">Sensitive and precise on anti trafficking bill</a></li>
+					<li><a href="#" onclick="callContent(this)" id="6">Surveillance reform is the need of the hour</a></li>
+
+				</ul>
+				<div class="debugdiv">
+					<h4>Dark mode</h4>
+					<div id="dbgbtn">
+						<label class="switch">
+							<input type="checkbox" id="dbg">
+							<span class="slider" onclick="togdarkmode()"></span>
+						</label>
+					</div>
+				</div>
+				<div class="author">
+					<h5>Designed and Coded by</h5>
+					<a id="auth" href="https://github.com/yoursamlan" target="_blank">Amlan Saha Kundu</a>
+					<a href="https://www.buymeacoffee.com/yoursamlan" target="_blank" id="bmc">buy me a coffee.</a>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="pagecontent">
+			<div id="heading">
+				<button class="openbtn" id="hamb" onclick="openNav()">☰</button>
+				<div id="title">
+					<h5>AMLAN's NOTEBOOK
+						<!--hr id="hr2"-->
+					</h5>
+				</div>
+				<button class="openbtn" id="graphbtn" onclick="openGraph();setTimeout(showGraph(), 400);">🕸</button>
+			</div>
+
+			<div id="main">
+				<h2 id="ContentHeading">A FREE Alternative to Obsidian Publish . . .<hr></h2>
+				<div id="mainContent">
+					<p>Hey everyone! I'm <a href="https://github.com/yoursamlan" target="_blank">Amlan</a>, a 21 year old self-taught web designer and developer from India. Welcome to my notebook. </p>
+					<h4>Reason behind this site...</h4>
+					<p>For the last couple of months, I'm using OBSIDIAN.md, a fantastic note-taking app, for tracking my studies and boosting productivity and I LOVE IT. But, after using for a while, yesterday, when I was about to present couple of notes to my friend, I had faced some serious challenges, publishing my notes.</p>
+					<p>Browsing into the forum, I've come to know about Obsidian-Publish and some other alternatives. While <b>Obsidian publish </b>costs <b><strike>12</strike> 8$ per month and works flawlessly </b> (which is btw a lot for the students like me with zero income😢), I have faced a hard time understanding its free alternatives. Also, all free alternatives lack the most interesting feature of OBSIDIAN, a.k.a the <b>Graph View</b>. </p>
+					<p>That's why after 20+ hours of code and 6 cups of coffee, here's my version of the free Obsidian Publish with <i>Graph View </i>🥳🥳....</p>
+
+					<ul>
+
+						<li>Click ☰ on top left to open the MENU.</li>
+						<li>Click 🕸 on top right to open the Graph.</li>
+						<li>On 'Menu', toggle the switch to enable/ disable dark mode.</li>
+						<!--img src="pages/guide.PNG" id="guide"-->
+					</ul>
+					<p> This page is <b>fully responsive.</b></p>
+
+
+					<p>Happy browsing 🙌... </p>
+
+					<p> Oh, one last thing. So far, this website is partially-generated from obsidian (around 60%). I'm currently working for full automation. Hope, I'll be able to achieve my goal sometime soon.</p>
+					<p>Meanwhile, if you love my effort, you can <a href="https://www.buymeacoffee.com/yoursamlan" target="_blank">buy me a coffee.</a> That will be AWESOME 😊😊😊. Also, any feedback/ suggestion is highly appreciated.😊 </p>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="plotgraph">
+			<a href="javascript:void()" id="closegraphbtn" onclick="closegraph(); setTimeout(location.reload.bind(location), 200);">×</a>
+			<div id="GraphView">
+			</div>
+		</div>
+	</div>
+	<script src='https://d3js.org/d3.v3.min.js'></script>
+	<script src="./network.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
