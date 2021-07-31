@@ -6,7 +6,7 @@ An [Obsidian-Publish](https://obsidian.md/publish) alternative but it's FREE
 For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 ---
-
+## Screenshots
 
 ![Lightmode](https://user-images.githubusercontent.com/33586885/127748655-8621a2cd-ee11-4834-8431-98ae413543a2.png)
 
@@ -14,8 +14,9 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 ![GraphView](https://user-images.githubusercontent.com/33586885/127748717-7c65dd5e-5ced-4d41-96dc-e9b10c0d4975.png)
 
+---
 
-## Features:
+## Features
 - Completely FREE
 - Fully Responsive Notes.
 - Graph View for Understanding Correlation BETTER and EASIER.
