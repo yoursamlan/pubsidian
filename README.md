@@ -1,2 +1,2 @@
 # pubsidian
-An Obsidian-Publish alternative but it's FREE
+An [Obsidian-Publish](https://obsidian.md/publish) alternative but it's FREE
