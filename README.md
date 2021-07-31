@@ -13,3 +13,12 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 ![GraphView](https://user-images.githubusercontent.com/33586885/127748717-7c65dd5e-5ced-4d41-96dc-e9b10c0d4975.png)
 
 
+## Features:
+- Completely FREE
+- Fully Responsive Notes.
+- Graph View for Understanding Correlation BETTER and EASIER.
+- Load where you left off.
+- Search your note from a larger database.
+
+## Dependency
+- 
