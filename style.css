@@ -104,6 +104,16 @@ body {
 	margin-right: auto;
 	padding: 0em 1em;
 	text-align: justify;
+	margin-bottom:6em;
+}
+
+#main a{
+	color: aqua;
+	text-decoration: none;
+}
+
+#main h2{
+	color: #fc2f2f;
 }
 
 #mySearch {
@@ -130,7 +140,7 @@ body {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	height: 50vh;
+	height: 60vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
@@ -228,46 +238,7 @@ body {
 	font-size: 90%;
 }
 
-.author {
-	position: absolute;
-	top: 85%;
 
-
-}
-
-.author h5 {
-	font-size: 60%;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-}
-
-#bmc {
-	font-size: 80%;
-	text-transform: uppercase;
-	padding: 0;
-	color: var(--font);
-	margin-top: 3%;
-	border: 2 px solid red;
-}
-
-#guide {
-	width: 100%;
-}
-
-#main a {
-	color: var(--font);
-	font-weight: 600;
-}
-
-#main a:visited {
-	color: var(--font);
-}
-
-.links a:hover {
-	font-size: 12px;
-	background: var(--font);
-	color: var(--bg);
-}
 
 input:checked + .slider {
 	background-color: var(--searchbg);
@@ -297,20 +268,6 @@ input:checked + .slider:before {
 	margin-left: 0.5em;
 	margin-right: auto;
 	font-weight: 300;
-}
-
-#auth {
-	font-size: 20px;
-	margin: 0;
-	padding: 5px;
-	font-weight: 100;
-	border: 2px solid var(--searchbg);
-	color: var(--searchfont);
-}
-
-#auth:hover {
-	background: var(--font);
-	color: var(--bg);
 }
 
 img {
@@ -411,9 +368,9 @@ circle {
 		margin-left: 0;
 	}
 
-	#contentheading {
-		text-align: center;
-	}
+		#contentheading {
+	text-align: center;
+}
 
 
 }
