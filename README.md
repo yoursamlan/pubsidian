@@ -32,7 +32,9 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 - That's why after 20+ hours of code and 6 cups of coffee, here's [my version](https://yoursamlan.github.io/pubsidian) of the free Obsidian Publish with **Graph View**🥳🥳...
 
 ## What's new in version 2.0:
-- From now on, internal navigation will be auto-generated from ```data.json``` 
+- From now on, internal navigation will be auto-generated from ```data.json``` . No more manual deployment is required.  
+- Cleaner and fresher look. Removing the sponsorship button (a.k.a buy me a coffee) from the website (Because, none has sponsored so far :'( ).
+- Minor UI tweaks.
 
 ## Things to DO...
 - [ ] Making the process fully automatic. So that, you can convert your whole vault with just one click.
