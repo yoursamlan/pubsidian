@@ -13,7 +13,6 @@
   "nodes": [
 		{"sl": 0, "size": 10, "score": 0.2, "id": "A climate risk on extreme weather events", "type":"circle"},
    	        {"sl": 1, "size": 10, "score": 0.5, "id": "An unproductive idea", "type":"circle"},
-   		{"sl": 1, "size": 10, "score": 0.5, "id": "An unproductive idea", "type":"circle"},
 		{"sl": 2, "size": 20, "score": 0.0, "id": "Empowering nature with biocentric jurisprudence", "type":"circle"},
 		{"sl": 3, "size": 10, "score": 0.9, "id": "A Kerala model for an anti discrimination law", "type":"circle"},
 		{"sl": 4, "size": 10, "score": 0.5, "id": "Evaluating India's options in Afghanistan", "type":"circle"},
