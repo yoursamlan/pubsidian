@@ -31,6 +31,9 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 - Browsing into the forum, I've come to know about Obsidian-Publish and some other alternatives. While [Obsidian publish](https://obsidian.md/publish) costs **8$ per month and works flawlessly** (which is btw a lot for the students like me with zero income😢), I have faced a hard time understanding its free alternatives. Also, all free alternatives lack the most interesting feature of OBSIDIAN, a.k.a the **Graph View**.
 - That's why after 20+ hours of code and 6 cups of coffee, here's [my version](https://yoursamlan.github.io/pubsidian) of the free Obsidian Publish with **Graph View**🥳🥳...
 
+## What's new in version 2.0:
+- From now on, internal navigation will be auto-generated from ```data.json``` 
+
 ## Things to DO...
 - [ ] Making the process fully automatic. So that, you can convert your whole vault with just one click.
 - [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
