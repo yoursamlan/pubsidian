@@ -33,7 +33,7 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 ## What's new in version 2.0:
 - From now on, internal navigation will be auto-generated from ```data.json``` . No more manual deployment is required.  
-- Cleaner and fresher look. Removing the sponsorship button (a.k.a buy me a coffee) from the website (Because, none has sponsored so far :'( ).
+- Cleaner and fresher look. Removing the sponsorship button (a.k.a [buy me a coffee](https://www.buymeacoffee.com/yoursamlan)) from the website (Because, none has sponsored so far 🥺 ).
 - Minor UI tweaks.
 
 ## Things to DO...
