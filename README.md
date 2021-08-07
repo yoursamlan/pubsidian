@@ -65,7 +65,8 @@ And Voila, your notes are online. :)
 - Minor UI tweaks.
 
 ## Roadmap for future versions...
-- [ ] Making the process fully automatic. So that, you can convert your whole vault with just one click.
+- [x] Auto-generated internal navigation.
+- [ ] One-click host - convert and host your obsidian notes just with a click.
 - [ ] Adding content search.
 - [ ] Introduce tags.
 - [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
