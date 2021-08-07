@@ -35,8 +35,10 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 - Cleaner and fresher look. Removing the sponsorship button (a.k.a [buy me a coffee](https://www.buymeacoffee.com/yoursamlan)) from the website (Because, none has sponsored so far 🥺 ).
 - Minor UI tweaks.
 
-## Things to DO...
+## Roadmap for future versions...
 - [ ] Making the process fully automatic. So that, you can convert your whole vault with just one click.
+- [ ] Adding content search.
+- [ ] Introduce tags.
 - [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
 - [ ] Theme supports and other customization.
 
