@@ -30,7 +30,33 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 - Browsing into the forum, I've come to know about Obsidian-Publish and some other alternatives. While [Obsidian publish](https://obsidian.md/publish) costs **8$ per month and works flawlessly** (which is btw a lot for the students like me with zero income😢), I have faced a hard time understanding its free alternatives. Also, all free alternatives lack the most interesting feature of OBSIDIAN, a.k.a the **Graph View**.
 - That's why after 20+ hours of code and 6 cups of coffee, here's [my version](https://yoursamlan.github.io/pubsidian) of the free Obsidian Publish with **Graph View**🥳🥳...
 
-## What's new in version 2.0:
+## Quick-start guide
+This project is currently under development. I'm trying to create a one-click deployment as soon as possible.
+
+Meanwhile, if you want to host your own notes using pubsidian, you have to follow the steps below.
+1. First of all you have to convert your obsidian notes from .md to .html format. You can either manually do that, or you can perform the following steps.
+    0.  **Make sure, you have installed Python 3.5 or later.**
+    a.  Now, **fork and download** [this repository](https://github.com/yoursamlan/pubsidian) to your local machine.
+    b. After downloading the repository, go to the ```tools``` directory.
+    c. Now open command prompt/ terminal and run
+        ``` pip install requirements.txt ```
+    d. After installing the libraries successfully, copy ```md2html.py``` from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]
+    e. Now open the command prompt again and run
+    ``` python md2html.py```
+    
+    After running successfully, you'll see something like this...
+    
+![image](https://user-images.githubusercontent.com/33586885/128258717-dfb04e85-2ea0-478c-bbc9-8f002865f8b4.png)
+
+- Your .md notes now have been converted to .html successfully. These .html notes will be stored in the ```pages``` directory. Also, you will see another ```data.json``` in your main directory.
+    
+2. Now copy and replace your generated ```data.json``` and ```pages``` directory in the forked directory and push it to the github.
+3. Now enable github-pages from the setting.
+
+And Voila, your notes are online. :)
+
+## Changelogs
+### What's new in version 2.0:
 - From now on, internal navigation will be auto-generated from ```data.json``` . No more manual deployment is required.  
 - Cleaner and fresher look. Removing the sponsorship button (a.k.a [buy me a coffee](https://www.buymeacoffee.com/yoursamlan)) from the website (Because, none has sponsored so far 🥺 ).
 - Minor UI tweaks.
@@ -41,6 +67,8 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 - [ ] Introduce tags.
 - [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
 - [ ] Theme supports and other customization.
+
+---
 
 If you have any idea/ suggestion, please put it in the issues.
 
