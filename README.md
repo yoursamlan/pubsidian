@@ -46,7 +46,7 @@ Meanwhile, if you want to host your own notes using pubsidian, you have to follo
     
     After running successfully, you'll see something like this...
     
-![image](https://user-images.githubusercontent.com/33586885/128258717-dfb04e85-2ea0-478c-bbc9-8f002865f8b4.png)
+![image](https://user-images.githubusercontent.com/33586885/128258717-dfb04e85-2ea0-478c-bbc9-8f002865f8b4.png?width=400px)
 
 - Your .md notes now have been converted to .html successfully. These .html notes will be stored in the ```pages``` directory. Also, you will see another ```data.json``` in your main directory.
     
