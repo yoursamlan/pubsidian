@@ -64,7 +64,7 @@ And Voila, your notes are online. :)
 - Cleaner and fresher look. Removing the sponsorship button (a.k.a [buy me a coffee](https://www.buymeacoffee.com/yoursamlan)) from the website (Because, none has sponsored so far 🥺 ).
 - Minor UI tweaks.
 
-## Roadmap for future versions...
+## Roadmap for future updates
 - [x] ~~Auto-generated internal navigation.~~ (Ver 2.0)
 - [ ] One-click host - convert and host your obsidian notes just with a click.
 - [ ] Adding content search.
