@@ -9,7 +9,7 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 ![Lightmode](https://user-images.githubusercontent.com/33586885/127748655-8621a2cd-ee11-4834-8431-98ae413543a2.png)
 
-[comment]: <> (![DarkMode](https://user-images.githubusercontent.com/33586885/127748617-77223cdf-d3d2-43db-aaa7-618e824d1c22.png))
+<!--(![DarkMode](https://user-images.githubusercontent.com/33586885/127748617-77223cdf-d3d2-43db-aaa7-618e824d1c22.png))-->
 
 ![Darkmode2.0](https://user-images.githubusercontent.com/33586885/128595378-dea4f2b7-8c86-4999-a9d0-359e540b877d.png)
 
