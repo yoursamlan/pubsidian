@@ -65,7 +65,7 @@ And Voila, your notes are online. :)
 - Minor UI tweaks.
 
 ## Roadmap for future versions...
-- [x] Auto-generated internal navigation.
+- [x] -Auto-generated internal navigation.- (Ver 2.0)
 - [ ] One-click host - convert and host your obsidian notes just with a click.
 - [ ] Adding content search.
 - [ ] Introduce tags.
