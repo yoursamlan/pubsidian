@@ -2,7 +2,7 @@
 #convert2web - bulk converter for pubsidian
 #ver 1.0.5-beta
 #author: Amlan Saha Kundu, 2021
-#notes: This converter is modified according to my own need. Please modify the code (eg. folders, outputs etc.) accordingly.
+#notes: This converter is currently under-development. If you encounter with any bugs, please post it in the issue.
 #       Stable release will be coming soon.
 #==============================================================================================================================
 
