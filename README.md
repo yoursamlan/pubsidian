@@ -101,7 +101,7 @@ Voila!! 🥳🥳 your site is online.
 
 ### What's new in version 3.2:
 - Latex rendering is now supported.
-    - If you have built your website using pubsidian-3.1 or earlier, then please add the following line in ```index.html``` for rendering latex.
+    - If you have built your website using pubsidian-3.1 or earlier, then please add the following lines in ```index.html``` for rendering latex.
     ```
     <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
     <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
