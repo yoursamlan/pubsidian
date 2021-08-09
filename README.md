@@ -102,6 +102,7 @@ Voila!! 🥳🥳 your site is online.
 ## Roadmap for future updates
 - [x] ~~Auto-generated internal navigation.~~ (ver 2.0)
 - [x] ~~One-click convert - convert and host your obsidian notes just with a click.~~ (ver 3.0)
+- [ ] Latex rendering.
 - [ ] Adding content search.
 - [ ] Introduce tags.
 - [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
