@@ -106,6 +106,9 @@ Voila!! 🥳🥳 your site is online.
     <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
     <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
     ```
+    - Example:
+        ![image](https://user-images.githubusercontent.com/33586885/128770630-2015e02e-bec1-49a2-a597-9e40c4b642c2.png)
+
 ## Roadmap for future updates
 - [x] ~~Auto-generated internal navigation.~~ (ver 2.0)
 - [x] ~~One-click convert - convert and host your obsidian notes just with a click.~~ (ver 3.0)
