@@ -99,10 +99,17 @@ Voila!! 🥳🥳 your site is online.
 - Created convert2web.py for converting your obsidian-notes to a website with just a single click.
 - Minor bug fixes.
 
+### What's new in version 3.2:
+- Latex rendering is now supported.
+    - If you have built your website using pubsidian-3.1 or earlier, then please add the following line in ```index.html``` for rendering latex.
+    ```
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+    ```
 ## Roadmap for future updates
 - [x] ~~Auto-generated internal navigation.~~ (ver 2.0)
 - [x] ~~One-click convert - convert and host your obsidian notes just with a click.~~ (ver 3.0)
-- [ ] Latex rendering.
+- [x] ~~Latex rendering.~~ (ver 3.2)
 - [ ] Adding content search.
 - [ ] Introduce tags.
 - [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
@@ -114,7 +121,6 @@ Voila!! 🥳🥳 your site is online.
 1. ![[Pasted Images]] are not converted properly. However ![Image](image link) shows no problem at all.
 2. Markdown tables are also facing problems during conversion.
 3. [[directory/directory]] are also facing some problems.
-4. Latex rendering isn't supported so far. Will be added to the next update.
 ```
 I'm working on it. Meanwhile, if you have any other bug/issue please put it in the issues.
 
