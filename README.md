@@ -114,6 +114,7 @@ Voila!! 🥳🥳 your site is online.
 1. ![[Pasted Images]] are not converted properly. However ![Image](image link) shows no problem at all.
 2. Markdown tables are also facing problems during conversion.
 3. [[directory/directory]] are also facing some problems.
+4. Latex rendering isn't supported so far. Will be added to the next update.
 ```
 I'm working on it. Meanwhile, if you have any other bug/issue please put it in the issues.
 
