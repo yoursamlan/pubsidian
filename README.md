@@ -33,6 +33,8 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 - Browsing into the forum, I've come to know about Obsidian-Publish and some other alternatives. While [Obsidian publish](https://obsidian.md/publish) costs **8$ per month and works flawlessly** (which is btw a lot for the students like me with zero income😢), I have faced a hard time understanding its free alternatives. Also, all free alternatives lack the most interesting feature of OBSIDIAN, a.k.a the **Graph View**.
 - That's why after 20+ hours of code and 6 cups of coffee, here's [my version](https://yoursamlan.github.io/pubsidian) of the free Obsidian Publish with **Graph View**🥳🥳...
 
+---
+
 ## Quick-start guide
 This project is currently under development. I've added a single-click-convertor for pubsidian notes. Now, you can generate a web version of your obsidian notes just with a single script. Video tutorial is coming soon.
 - STEP-1: CONVERSION:
@@ -52,6 +54,7 @@ This project is currently under development. I've added a single-click-convertor
 
 Voila!! 🥳🥳 your site is online.
 
+---
 
 ## Changelogs
 ### What's new in version 2.0:
