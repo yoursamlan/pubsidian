@@ -107,9 +107,14 @@ Voila!! 🥳🥳 your site is online.
 - [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
 - [ ] Theme supports and other customization.
 
----
-
-If you have any idea/ suggestion, please put it in the issues.
+## Disclaimer
+- After thorough testing, I have found some bugs during the conversion. 
+```
+1. ![[Pasted Images]] are not converted properly. However ![Image](image link) shows no problem at all.
+2. Markdown tables are also facing problems during conversion.
+3. [[directory/directory]] are also facing some problems.
+```
+I'm working on it. Meanwhile, if you have any other bug/issue please put it in the issues.
 
 If you love my work, you can [buy me a coffee](https://www.buymeacoffee.com/yoursamlan).
 
