@@ -36,13 +36,13 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 ## Quick-start guide
 This project is currently under development. I've added a single-click-convertor for pubsidian notes. Now, you can generate a web version of your obsidian notes just with a single script. Video tutorial is coming soon.
 1. STEP-1: CONVERSION:
-    0.  **Make sure, you have installed Python 3.5 or later.**
-    a.  Now, **fork and download** [yoursamlan/pubsidian](https://github.com/yoursamlan/pubsidian) to your local machine.
-    b. After downloading the repository, go to the ```tools``` directory.
-    c. Now open command prompt/ terminal and run
+    -  **Make sure, you have installed Python 3.5 or later.**
+    -  Now, **fork and download** [yoursamlan/pubsidian](https://github.com/yoursamlan/pubsidian) to your local machine.
+    -  After downloading the repository, go to the ```tools``` directory.
+    -  Now open command prompt/ terminal and run
         ``` pip install requirements.txt ```
-    d. After installing the libraries successfully, copy ```convert2web.py``` from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]
-    e. Now open the command prompt again and run
+    -  After installing the libraries successfully, copy ```convert2web.py``` from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]
+    -  Now open the command prompt again and run
     ``` python convert2web.py```
     
     After running successfully, you'll see something like this...
