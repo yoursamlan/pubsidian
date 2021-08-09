@@ -1,4 +1,4 @@
-![](https://i.imgur.com/tsvczo4.png)
+![](https://raw.githubusercontent.com/yoursamlan/pubsidian/main/CDN/pubsidian.png)
 
 An [Obsidian-Publish](https://obsidian.md/publish) alternative but it's FREE
 
