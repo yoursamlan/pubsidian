@@ -2,7 +2,7 @@
 
 An [Obsidian-Publish](https://obsidian.md/publish) alternative but it's FREE
 
-![](https://img.shields.io/badge/Initial%20Build-Success-brightgreen) ![](https://img.shields.io/badge/Final%20Release-Work%20in%20Progress-yellowgreen) ![](https://img.shields.io/badge/Demo-Active-brightgreen)
+![](https://img.shields.io/badge/Initial%20Build-Success-brightgreen) ![](https://img.shields.io/badge/Final%20Release-Work%20in%20Progress-yellowgreen) [![pubsidian](https://img.shields.io/badge/Demo-Active-brightgreen)](https://yoursamlan.github.io/pubsidian)
 
 For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
@@ -17,6 +17,36 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 
 ![GraphView](https://user-images.githubusercontent.com/33586885/127748717-7c65dd5e-5ced-4d41-96dc-e9b10c0d4975.png)
+
+<table>
+<tbody>
+<tr>
+<td>Menu</td>
+<td>Notes</td>
+<td>Graph</td>
+</tr>
+<tr>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/l1.jpg?raw=true"></td>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/l2.jpg?raw=true"></td>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/l3.jpg?raw=true"></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr>
+<td>Menu</td>
+<td>Notes</td>
+<td>Graph</td>
+</tr>
+<tr>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/d1.jpg?raw=true"></td>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/d2.jpg?raw=true"></td>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/d3.jpg?raw=true"></td>
+</tr>
+</tbody>
+</table>
 
 ---
 
