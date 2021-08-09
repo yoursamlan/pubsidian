@@ -18,6 +18,20 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 ![GraphView](https://user-images.githubusercontent.com/33586885/127748717-7c65dd5e-5ced-4d41-96dc-e9b10c0d4975.png)
 
+<table>
+<tbody>
+<tr>
+<td>Menu</td>
+<td>Notes</td>
+<td>Graph</td>
+</tr>
+<tr>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/l1.jpg?raw=true"></td>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/l2.jpg?raw=true"></td>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/l3.jpg?raw=true"></td>
+</tr>
+</tbody>
+</table>
 
 
 ---
