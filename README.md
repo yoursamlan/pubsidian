@@ -35,7 +35,7 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 ## Quick-start guide
 This project is currently under development. I've added a single-click-convertor for pubsidian notes. Now, you can generate a web version of your obsidian notes just with a single script. Video tutorial is coming soon.
-1. STEP-1: CONVERSION:
+- STEP-1: CONVERSION:
     -  **Make sure, you have installed Python 3.5 or later.**
     -  Now, **fork and download** [yoursamlan/pubsidian](https://github.com/yoursamlan/pubsidian) to your local machine.
     -  After downloading the repository, go to the ```tools``` directory.
@@ -44,17 +44,14 @@ This project is currently under development. I've added a single-click-convertor
     -  After installing the libraries successfully, copy ```convert2web.py``` from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]
     -  Now open the command prompt again and run
     ``` python convert2web.py```
-    
-    After running successfully, you'll see something like this...
-    
-<img src="https://user-images.githubusercontent.com/33586885/128258717-dfb04e85-2ea0-478c-bbc9-8f002865f8b4.png" width=50%>
+    -  Enter your name. It will be reflected as ```***'S NOTEBOOK``` in your pubsidian website.
+    After running successfully, you'll get an ```OUTPUT``` directory, containing three elements: ```index.html```,```data.json``` and ```pages``` directory.
 
-- Your .md notes now have been converted to .html successfully. These .html notes will be stored in the ```pages``` directory. Also, you will see another ```data.json``` in your main directory.
-    
-2. Now copy and replace your generated ```data.json``` and ```pages``` directory in the forked directory and push it to the github.
-3. Now enable github-pages from the setting.
+- STEP-2: HOSTING:
+    -  Drag and drop your ```OUTPUT``` directory in (netlify)["https://app.netlify.com/drop"]
 
-And Voila, your notes are online. :)
+Voila!! 🥳🥳 your site is online.
+
 
 ## Changelogs
 ### What's new in version 2.0:
