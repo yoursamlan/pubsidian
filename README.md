@@ -33,6 +33,20 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 </tbody>
 </table>
 
+<table>
+<tbody>
+<tr>
+<td>Menu</td>
+<td>Notes</td>
+<td>Graph</td>
+</tr>
+<tr>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/d1.jpg?raw=true"></td>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/d2.jpg?raw=true"></td>
+<td><img src="https://github.com/yoursamlan/pubsidian/blob/main/screenshot/d3.jpg?raw=true"></td>
+</tr>
+</tbody>
+</table>
 
 ---
 
