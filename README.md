@@ -34,18 +34,16 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 - That's why after 20+ hours of code and 6 cups of coffee, here's [my version](https://yoursamlan.github.io/pubsidian) of the free Obsidian Publish with **Graph View**🥳🥳...
 
 ## Quick-start guide
-This project is currently under development. I'm trying to create a one-click deployment as soon as possible.
-
-Meanwhile, if you want to host your own notes using pubsidian, you have to follow the steps below.
-1. First of all you have to convert your obsidian notes from .md to .html format. You can either manually do that, or you can perform the following steps.
+This project is currently under development. I've added a single-click-convertor for pubsidian notes. Now, you can generate a web version of your obsidian notes just with a single script. Video tutorial is coming soon.
+1. STEP-1: CONVERSION:
     0.  **Make sure, you have installed Python 3.5 or later.**
-    a.  Now, **fork and download** [this repository](https://github.com/yoursamlan/pubsidian) to your local machine.
+    a.  Now, **fork and download** [yoursamlan/pubsidian](https://github.com/yoursamlan/pubsidian) to your local machine.
     b. After downloading the repository, go to the ```tools``` directory.
     c. Now open command prompt/ terminal and run
         ``` pip install requirements.txt ```
-    d. After installing the libraries successfully, copy ```md2html.py``` from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]
+    d. After installing the libraries successfully, copy ```convert2web.py``` from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]
     e. Now open the command prompt again and run
-    ``` python md2html.py```
+    ``` python convert2web.py```
     
     After running successfully, you'll see something like this...
     
@@ -64,9 +62,13 @@ And Voila, your notes are online. :)
 - Cleaner and fresher look. Removing the sponsorship button (a.k.a [buy me a coffee](https://www.buymeacoffee.com/yoursamlan)) from the website (Because, none has sponsored so far 🥺 ).
 - Minor UI tweaks.
 
+### What's new in version 3.0:
+- Created convert2web.py for converting your obsidian-notes to a website with just a single click.
+- Minor bug fixes.
+
 ## Roadmap for future updates
 - [x] ~~Auto-generated internal navigation.~~ (Ver 2.0)
-- [ ] One-click host - convert and host your obsidian notes just with a click.
+- [x] ~~One-click convert - convert and host your obsidian notes just with a click.~~
 - [ ] Adding content search.
 - [ ] Introduce tags.
 - [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
