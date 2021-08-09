@@ -67,8 +67,8 @@ Voila!! 🥳🥳 your site is online.
 - Minor bug fixes.
 
 ## Roadmap for future updates
-- [x] ~~Auto-generated internal navigation.~~ (Ver 2.0)
-- [x] ~~One-click convert - convert and host your obsidian notes just with a click.~~
+- [x] ~~Auto-generated internal navigation.~~ (ver 2.0)
+- [x] ~~One-click convert - convert and host your obsidian notes just with a click.~~ (ver 3.0)
 - [ ] Adding content search.
 - [ ] Introduce tags.
 - [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
