@@ -60,6 +60,11 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 ## Dependency
 - Only [d3.js](https://d3js.org) for generating the Graph. Apart from that, written completely in vanilla JS. No other JS library is used.
 
+## Structure
+
+![pubsidian dark](https://user-images.githubusercontent.com/33586885/129711320-62f0b420-a0a5-40df-aca2-4acbd6706747.png)
+
+
 ## Why this project?
 - For the last couple of months, I'm using OBSIDIAN.md, a fantastic note-taking app, for tracking my studies and boosting productivity and **I LOVE IT**. But, after using for a while, yesterday, when I was about to present couple of notes to my friend, I had faced some serious challenges, publishing my notes.
 - Browsing into the forum, I've come to know about Obsidian-Publish and some other alternatives. While [Obsidian publish](https://obsidian.md/publish) costs **8$ per month and works flawlessly** (which is btw a lot for the students like me with zero income😢), I have faced a hard time understanding its free alternatives. Also, all free alternatives lack the most interesting feature of OBSIDIAN, a.k.a the **Graph View**.
