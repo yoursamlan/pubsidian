@@ -18,6 +18,14 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 ![GraphView](https://user-images.githubusercontent.com/33586885/127748717-7c65dd5e-5ced-4d41-96dc-e9b10c0d4975.png)
 
+### Side-by-side comparison with Obsidian
+
+![Light](https://user-images.githubusercontent.com/33586885/129885582-2c6b7e11-d42c-4d93-8014-220f27ff3339.png)
+
+![Dark](https://user-images.githubusercontent.com/33586885/129885431-77b6d511-ceba-40ec-8099-2863f44123fc.png)
+
+### Mobileview
+
 <table>
 <tbody>
 <tr>
@@ -59,6 +67,11 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 ## Dependency
 - Only [d3.js](https://d3js.org) for generating the Graph. Apart from that, written completely in vanilla JS. No other JS library is used.
+
+## Structure
+
+![pubsidian dark](https://user-images.githubusercontent.com/33586885/129711320-62f0b420-a0a5-40df-aca2-4acbd6706747.png)
+
 
 ## Why this project?
 - For the last couple of months, I'm using OBSIDIAN.md, a fantastic note-taking app, for tracking my studies and boosting productivity and **I LOVE IT**. But, after using for a while, yesterday, when I was about to present couple of notes to my friend, I had faced some serious challenges, publishing my notes.
