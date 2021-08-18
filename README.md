@@ -18,6 +18,14 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 ![GraphView](https://user-images.githubusercontent.com/33586885/127748717-7c65dd5e-5ced-4d41-96dc-e9b10c0d4975.png)
 
+### Side-by-side comparison with Obsidian
+
+![Light](https://user-images.githubusercontent.com/33586885/129885582-2c6b7e11-d42c-4d93-8014-220f27ff3339.png)
+
+![Dark](https://user-images.githubusercontent.com/33586885/129885431-77b6d511-ceba-40ec-8099-2863f44123fc.png)
+
+### Mobileview
+
 <table>
 <tbody>
 <tr>
