@@ -9,7 +9,6 @@
 #==============================================================================================================================
 
 import markdown,re,os,pyimgur
-#from markdown.treeprocessors import Treeprocessor
 from markdown import markdown
 from markdown.extensions.wikilinks import WikiLinkExtension
 from urllib.parse import urlparse
