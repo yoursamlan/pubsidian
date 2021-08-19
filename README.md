@@ -83,6 +83,8 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 ## Quick-start guide
 This project is currently under development. I've added a single-click-convertor for pubsidian notes. Now, you can generate a web version of your obsidian notes just with a single script. Video tutorial is coming soon.
 
+### convert2web.py ver 1.0-beta
+
 - STEP-1: CONVERSION:
     -  **Make sure, you have installed Python 3.5 or later.**
     -  Now, **fork and download** [yoursamlan/pubsidian](https://github.com/yoursamlan/pubsidian) to your local machine.
@@ -99,6 +101,35 @@ This project is currently under development. I've added a single-click-convertor
     -  Drag and drop your ```OUTPUT``` directory in [netlify]("https://app.netlify.com/drop")
 
 Voila!! 🥳🥳 your site is online.
+
+
+
+### convert2web.py ver 1.2-beta
+
+Updates: 
+- Fixed => ![[Pasted Images]]
+- Fixed => markdown-tables
+
+For fixing the problem with pasted images, I have chosen hosting the images to [imgur](https://imgur.com/). For this purpose, you need to change couple of things in the code. If your notes don't have any offline images, you don't need these steps.
+
+1. Go to [https://api.imgur.com/oauth2/addclient](https://api.imgur.com/oauth2/addclient) to register your client. After registering your application successfully, you will get a ```client_id``` and a ```client_secret```. Here we only need the ```client_id``` for uploading images to ```imgur cloud```.
+2. You also need attachment path for your obsidian vault. You can view that by going Obsidian-settings >> File&Links >> Attachment Folder Path
+<img src="https://user-images.githubusercontent.com/33586885/130024783-6c02f753-a76d-4174-8941-4224a09e18e0.png" width=60%>
+
+**Please note**: 
+    - Please use full path of the folder, something like: C:/Users/blahblah/ObsVault/attachmets/.
+    - Please Use "/" instead of "\" or "\\".
+    - Add "/" while closing the path.
+
+Now, after getting ```client_id``` and ```attachment_path```, change the following two lines of code of the ```convert2web.py```
+
+```
+CLIENT_ID = "your imgur client ID, something like: 123a1bc1234567d"
+base_attachment = 'Your Obsidian Attachment Folder Path (Something like: C:/Users/blah/blah/, Please Use "/" instead of "\" or "\\". Add "/" while closing the path.)'
+```
+
+Now follow the aforementioned steps for successful conversion.
+
 
 ---
 
