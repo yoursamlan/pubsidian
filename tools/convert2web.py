@@ -1,4 +1,4 @@
-
+# coding=utf-8
 #convert2web - bulk converter for pubsidian
 #ver 1.2-beta
 #author: Amlan Saha Kundu, 2021
