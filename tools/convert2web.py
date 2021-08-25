@@ -86,11 +86,10 @@ def md2html(fname):
     outp = "./OUTPUT/pages/"+fname+'.html'
     with open(inp, 'r') as f:
         text = f.read()
-        #text = markdown(text, extensions=['markdown.extensions.tables'])
+        p = re.compile(r'!\[\[(.+?)\]\]')
+        text = re.sub(p, r'![\1](\1)', text)
         text = markdown(text, extensions=[WikiLinkExtension(base_url='./', end_url='.html'),'markdown.extensions.tables'])
         text = strip(text,"See more")
-        text = text.replace("![[","![](")
-        text = text.replace("]]",")")
         html = markdown(text)
         html = highlight(html)
         soup = BeautifulSoup(html,"html.parser")
@@ -144,4 +143,3 @@ def Welcome():
     
 if __name__ == "__main__":
     Welcome()
-
