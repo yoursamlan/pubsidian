@@ -1,0 +1,202 @@
+<html>
+
+<head>
+	<title>Pubsidian Converter 1.0</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<script type="text/javascript" src="/eel.js"></script>
+	<style>
+		/* width */
+		::-webkit-scrollbar {
+			width: 5px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+			background: #f1f1f1;
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background: #9d80fc;
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+			background: #6f55ff;
+		}
+
+		body {
+			font-size: 18px;
+			font-family: 'Montserrat', 'Comfortaa', sans-serif;
+			color: #9f8dff;
+		}
+
+		#app {
+			width: 90vw;
+			height: 90vh;
+			margin: auto;
+			align-content: center;
+			text-align: center;
+		}
+
+		#header {
+			width: 50vw;
+			margin: 2vh auto 0vh auto;
+			display: grid;
+		}
+
+		#header img {
+			width: 60%;
+			margin: auto;
+			display: block;
+		}
+
+		#container {
+			width: 80vw;
+			padding: 10px;
+			margin: auto;
+			/*border: 2px solid #d2c9ff;*/
+		}
+
+		#enterName,
+		#covt,
+		#selectAttach {
+			display: flex;
+			width: 90%;
+			margin: auto;
+			/*border: 2px solid #dedede;*/
+			padding: 10px;
+			border-radius: 0px;
+			background: #ffffff;
+			box-shadow: -17px 17px 35px #f0f0f0,
+				17px -17px 35px #ffffff;
+		}
+
+		.label {
+			text-align: left;
+			width: 30vw;
+		}
+
+		#uid {
+			width: 50%;
+			margin-left: 10%;
+		}
+
+		#validate {
+			width: 30%;
+			margin-right: 10%;
+		}
+
+		button {
+			margin: 10px;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			outline: none;
+			border-radius: 0px;
+			font-size: 20px;
+			background: #9f8dff;
+			box-shadow: -5px 5px 10px #dedede,
+				5px -5px 10px #ffffff;
+		}
+
+		input {
+			width: 50vw;
+			margin: 10px;
+			text-align: center;
+			text-transform: uppercase;
+			padding: 5px;
+			font-size: 20px;
+			outline: none;
+			border: none;
+			border-radius: 0px;
+			background: #ffffff;
+			color: #6855ff;
+			box-shadow: inset 5px 5px 10px #dedede,
+				inset -5px -5px 10px #ffffff;
+		}
+
+		#content {
+			position: relative;
+			height: 30vh;
+			overflow-y: scroll;
+			text-align: left;
+			font-size: 14px;
+			font-family: monospace;
+			width: 90%;
+			margin: 2vh auto;
+			border-radius: 0px;
+			background: #ffffff;
+			box-shadow: inset 9px 9px 17px #e8e8e8,
+				inset -9px -9px 17px #ffffff;
+		}
+
+		#conv {
+			width: 100%;
+			margin: auto;
+		}
+
+		#footer {
+			text-align: center;
+			margin: 10px;
+		}
+
+	</style>
+	<script>
+		function callf() {
+			var x = document.getElementById("msg").value;
+			document.getElementById('msg').disabled = true;
+			document.getElementById('conv').disabled = true;
+			eel.tf(x);
+		}
+
+		function select() {
+			eel.selectFolder();
+		}
+
+		function addText(text) {
+			var div = document.getElementById("content");
+			div.innerHTML += "<br>" + text;
+		}
+		eel.expose(addText);
+
+		window.setInterval(function() {
+			var elem = document.getElementById('content');
+			elem.scrollTop = elem.scrollHeight;
+		}, 1000);
+
+	</script>
+</head>
+
+<body>
+	<div id='app'>
+		<div id="header">
+			<img src="https://raw.githubusercontent.com/yoursamlan/pubsidian/main/CDN/assets/pubc.png" alt="logo">
+			<h4>version: 1.0</h4>
+		</div>
+		<div id="container">
+			<!--div id="regim">
+				<p>register at <a href="https://api.imgur.com/oauth2/addclient" target="_blank">imgur</a> and enter <b>client id</b> of your application.</p>
+				<div id="enterName">
+					<input id="uid" placeholder="Enter Client ID">
+					<button onclick="imgid()" id="validate">Validate</button>
+				</div>
+			</div-->
+			<div id="enterName">
+				<p class="label">Enter Your Name:</p>
+				<input id="msg">
+			</div>
+			<div id="covt">
+				<button onclick="callf()" id="conv">Convert to Pubsidian</button>
+			</div>
+			<div id="selectAttach">
+				<p class="instruction">Now select the attachment folder in the pop-up. If you are unsure about your attachment folder, go to...<br><br><b>Settings > Files &amp; Links > Attachment Folder Path</b> </p>
+				<!--button class="items" onclick="select()">Choose Attachment Directory</button-->
+			</div>
+			<div id="content"></div>
+		</div>
+	</div>
+	<p id="footer">Made with ❤️ by <a href="https://github.com/yoursamlan" target="_blank"> Amlan Saha Kundu</a>, 2021</p>
+</body>
+
+</html>
