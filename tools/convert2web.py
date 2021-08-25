@@ -90,6 +90,11 @@ def md2html(fname):
         text = re.sub(p, r'![\1](\1)', text)
         text = markdown(text, extensions=[WikiLinkExtension(base_url='./', end_url='.html'),'markdown.extensions.tables'])
         text = strip(text,"See more")
+<<<<<<< HEAD
+=======
+        p = re.compile(r'!\[\[(.+?)\]\]')
+        text = re.sub(p, r'![\1](\1)', text)
+>>>>>>> 75e46af7e336357c2bbf67cd78bbe5270e6f6a22
         html = markdown(text)
         html = highlight(html)
         soup = BeautifulSoup(html,"html.parser")
