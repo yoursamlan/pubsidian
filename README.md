@@ -157,7 +157,7 @@ Now follow the aforementioned steps for successful conversion.
         ![image](https://user-images.githubusercontent.com/33586885/128770630-2015e02e-bec1-49a2-a597-9e40c4b642c2.png)
         
         - #### Changelog version 3.2.1:
-            - LaTex rendering is temporarily removed due to **Vulnerability Issue**. LaTex will be implemented in future.
+            - LaTex rendering is temporarily removed due to **Vulnerability Issue**. LaTex-rendering support will be implemented in future.
             - Performance Improvements.
             
           <img src="https://user-images.githubusercontent.com/33586885/131241556-17d3d225-b150-4e71-8290-7a4eb0c18edb.png" width="50%">
@@ -167,9 +167,7 @@ Now follow the aforementioned steps for successful conversion.
 - [x] ~~Auto-generated internal navigation.~~ (ver 2.0)
 - [x] ~~One-click convert - convert and host your obsidian notes just with a click.~~ (ver 3.0)
 - [x] ~~Latex rendering.~~ (ver 3.2)
-- [ ] Adding content search.
-- [ ] Introduce tags.
-- [ ] Adding page navigation to the Graph View, so that you can move quickly from one age to another just by using GraphView.
+- [ ] Adding content search and tags.
 - [ ] Theme supports and other customization.
 
 ## Disclaimer
@@ -177,7 +175,7 @@ Now follow the aforementioned steps for successful conversion.
 
 ~~1. ![[Pasted Images]] are not converted properly. However ![Image](image link) shows no problem at all.~~ [FIXED] <br> 
 ~~2. Markdown tables are also facing problems during conversion.~~ [FIXED] <br>
-3. [[directory/directory]] are also facing some problems.
+1. [[directory/directory]] is not supported.
 
 I'm working on it. Meanwhile, if you have any other bug/issue please put it in the issues.
 
