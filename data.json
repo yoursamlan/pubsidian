@@ -17,8 +17,7 @@
 		{"sl": 3, "size": 10, "score": 0.9, "id": "A Kerala model for an anti discrimination law", "type":"circle"},
 		{"sl": 4, "size": 10, "score": 0.5, "id": "Evaluating India's options in Afghanistan", "type":"circle"},
 		{"sl": 5, "size": 10, "score": 0.9, "id": "Sensitive and precise on anti trafficking bill", "type":"circle"},
-		{"sl": 6, "size": 10, "score": 0.6, "id": "Surveillance reform is the need of the hour", "type":"circle"},
-		{"sl": 7, "size": 10, "score": 0.2, "id": "Archimedean Property", "type":"circle"}
+		{"sl": 6, "size": 10, "score": 0.6, "id": "Surveillance reform is the need of the hour", "type":"circle"}
 	  ],
   "directed": false,
   "multigraph": false
