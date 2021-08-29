@@ -155,6 +155,10 @@ Now follow the aforementioned steps for successful conversion.
     ```
     - Example:
         ![image](https://user-images.githubusercontent.com/33586885/128770630-2015e02e-bec1-49a2-a597-9e40c4b642c2.png)
+        
+        - #### Changelog version 3.2.1:
+            - LaTex rendering is temporarily removed due to **Vulnerability Issue**. LaTex will be implemented in future.
+
 
 ## Roadmap for future updates
 - [x] ~~Auto-generated internal navigation.~~ (ver 2.0)
