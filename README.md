@@ -132,7 +132,7 @@ Now follow the aforementioned steps for successful conversion.
 
 ### Pubsidian Convert GUI v1.0
 
-![GUI](https://user-images.githubusercontent.com/33586885/130856672-35454bcd-3386-4afb-8ba7-33cba5b96d1d.png)
+<img src="https://user-images.githubusercontent.com/33586885/130856672-35454bcd-3386-4afb-8ba7-33cba5b96d1d.png" width="50%">
 
 ---
 
@@ -159,8 +159,8 @@ Now follow the aforementioned steps for successful conversion.
         - #### Changelog version 3.2.1:
             - LaTex rendering is temporarily removed due to **Vulnerability Issue**. LaTex will be implemented in future.
             - Performance Improvements.
-            - ![Performance Improvements](https://user-images.githubusercontent.com/33586885/131241556-17d3d225-b150-4e71-8290-7a4eb0c18edb.png)
-
+            
+          <img src="https://user-images.githubusercontent.com/33586885/131241556-17d3d225-b150-4e71-8290-7a4eb0c18edb.png" width="50%">
 
 
 ## Roadmap for future updates
