@@ -141,7 +141,7 @@ Now follow the aforementioned steps for successful conversion.
         ``` pip install requirements.txt ```
     -  After installing the libraries successfully, copy ```PubsidianConverter.py``` from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]
     -  Now open the command prompt again and run
-    ``` python convert2web.py```
+    ``` python PubsidianConverter.py```
     - You will see this window...
     - <img src="https://user-images.githubusercontent.com/33586885/130856672-35454bcd-3386-4afb-8ba7-33cba5b96d1d.png" width="50%">
     -  Enter your name (It will be reflected as ```***'S NOTEBOOK``` in your pubsidian website) and hit ```Convert to Pubsidian```. Now, a pop up window will arrive. Select the ```Attachment folder of your obsidian notes``` from the pop-up window.
