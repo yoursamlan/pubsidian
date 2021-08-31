@@ -83,9 +83,9 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 ## Quick-start guide
 This project is currently under development. I've added a single-click-convertor for pubsidian notes. Now, you can generate a web version of your obsidian notes just with a single script. Video tutorial is coming soon.
 
+<!--
 ### convert2web.py ver 1.0-beta
 
-<!--
 - STEP-1: CONVERSION:
     -  **Make sure, you have installed Python 3.5 or later.**
     -  Now, **fork and download** [yoursamlan/pubsidian](https://github.com/yoursamlan/pubsidian) to your local machine.
@@ -131,6 +131,7 @@ base_attachment = 'Your Obsidian Attachment Folder Path (Something like: C:/User
 
 Now follow the aforementioned steps for successful conversion.
 -->
+## Quickstart Guide
 ### Pubsidian Convert GUI v1.0
 - STEP-1: CONVERSION:
     -  **Make sure, you have installed Python 3.5 or later.**
