@@ -143,7 +143,7 @@ Now follow the aforementioned steps for successful conversion.
     -  Simply double-click to RUN ```PubsidianConverter.py``` 
     - You will see this window...
     - <img src="https://user-images.githubusercontent.com/33586885/130856672-35454bcd-3386-4afb-8ba7-33cba5b96d1d.png" width="50%">
-    -  Enter your name (It will be reflected as ```***'S NOTEBOOK``` in your pubsidian website) and hit ```Convert to Pubsidian```. Now, a pop up window will arrive. Select the ```Attachment folder of your obsidian notes``` from the pop-up window.
+    -  Enter your name (It will be reflected as ```***'S NOTEBOOK``` in your pubsidian website) and hit ```Convert to Pubsidian```. Now, a pop up window will arrive. Select the ```Attachment folder, i.e., where the images, used inside your obsidian notes are stored``` from the pop-up window.
     - After running successfully, you'll get an ```OUTPUT``` directory, containing three elements: ```index.html```,```data.json``` and ```pages``` directory.
 
 - STEP-2: HOSTING:
