@@ -139,7 +139,7 @@ Now follow the aforementioned steps for successful conversion.
     -  After downloading the repository, go to the ```tools``` directory.
     -  Now open command prompt/ terminal and run
         ``` pip install requirements.txt ```
-    -  After installing the libraries successfully, copy ```PubsidianConverter.py``` from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]
+    -  After installing the libraries successfully, copy ```PubsidianConverter.py``` along with ```icon.ico``` and ```web``` directory from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]
     -  Simply double-click to RUN ```PubsidianConverter.py``` 
     - You will see this window...
     - <img src="https://user-images.githubusercontent.com/33586885/130856672-35454bcd-3386-4afb-8ba7-33cba5b96d1d.png" width="50%">
