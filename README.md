@@ -130,18 +130,23 @@ base_attachment = 'Your Obsidian Attachment Folder Path (Something like: C:/User
 ```
 
 Now follow the aforementioned steps for successful conversion.
--->
-## Quickstart Guide
-### Pubsidian Convert GUI v1.0
-- STEP-1: CONVERSION:
+
+
+
     -  **Make sure, you have installed Python 3.5 or later.**
     -  Now, **fork and download** [yoursamlan/pubsidian](https://github.com/yoursamlan/pubsidian) to your local machine.
     -  After downloading the repository, go to the ```tools``` directory.
     -  Now open command prompt/ terminal and run
         ``` pip install requirements.txt ```
     -  After installing the libraries successfully, copy ```PubsidianConverter.py``` along with ```icon.ico``` and ```web``` directory from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]
+-->
+## Quickstart Guide
+### Pubsidian Convert GUI v1.0
+- STEP-1: CONVERSION:
+    -  Download [```PubsidianConverter1.0alpha.exe```](https://github.com/yoursamlan/pubsidian/releases/download/Windows/PubsidianConverter1.0alpha.exe)
+    -  Copy and Paste this application to the obsidian directory, [i.e where your notes (.md) are stored.]
     -  Simply double-click to RUN ```PubsidianConverter.py``` 
-    - You will see this window...
+    -  You will a window, something like this:
     - <img src="https://user-images.githubusercontent.com/33586885/130856672-35454bcd-3386-4afb-8ba7-33cba5b96d1d.png" width="50%">
     -  Enter your name (It will be reflected as ```***'S NOTEBOOK``` in your pubsidian website) and hit ```Convert to Pubsidian```. Now, a pop up window will arrive. Select the ```Attachment folder, i.e., where the images, used inside your obsidian notes are stored``` from the pop-up window.
     - After running successfully, you'll get an ```OUTPUT``` directory, containing three elements: ```index.html```,```data.json``` and ```pages``` directory.
