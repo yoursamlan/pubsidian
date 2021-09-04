@@ -4,6 +4,8 @@ from markdown import markdown
 from markdown.extensions.wikilinks import WikiLinkExtension
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+import codecs
+types_of_encoding = ["utf8", "cp1252"]
 
 def links(findex):
     linktext = ""
@@ -80,6 +82,7 @@ def md2html(fname):
         p = re.compile(r'!\[\[(.+?)\]\]')
         text = re.sub(p, r'![\1](\1)', text)
         text = markdown(text, extensions=[WikiLinkExtension(base_url='./', end_url='.html'),'markdown.extensions.tables'])
+        text = strip(text,"See more")
         html = markdown(text)
         html = highlight(html)
         soup = BeautifulSoup(html,"html.parser")
