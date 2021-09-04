@@ -20,6 +20,13 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
 ### Side-by-side comparison with Obsidian
 
+#### Only text: 
+![image](https://user-images.githubusercontent.com/33586885/132090472-c8a26b34-91b2-4605-a24b-4955a7f7bd99.png)
+
+![image](https://user-images.githubusercontent.com/33586885/132090539-fa2fffa8-c9d6-4d66-aae4-1c57735f9bd6.png)
+
+
+### Text with image:
 ![Light](https://user-images.githubusercontent.com/33586885/129885582-2c6b7e11-d42c-4d93-8014-220f27ff3339.png)
 
 ![Dark](https://user-images.githubusercontent.com/33586885/129885431-77b6d511-ceba-40ec-8099-2863f44123fc.png)
