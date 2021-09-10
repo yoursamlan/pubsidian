@@ -159,7 +159,7 @@ Now follow the aforementioned steps for successful conversion.
     - After running successfully, you'll get an ```OUTPUT``` directory, containing three elements: ```index.html```,```data.json``` and ```pages``` directory.
 
 - STEP-2: HOSTING:
-    -  Drag and drop your ```OUTPUT``` directory in [netlify]("https://app.netlify.com/drop")
+    -  Drag and drop your ```OUTPUT``` directory in [netlify](https://app.netlify.com/drop)
 
 Voila!! 🥳🥳 your site is online.
 
