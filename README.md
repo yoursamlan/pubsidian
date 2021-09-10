@@ -73,7 +73,7 @@ For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 - Search your note from a larger database.
 
 ## Dependency
-- Only [d3.js](https://d3js.org) for generating the Graph. Apart from that, written completely in vanilla JS. No other JS library is used.
+- Only [d3.js](https://d3js.org) for generating the Graph. Apart from that, written completely in conventional JavaScript a.k.a. vanilla JS. No other JS library is used.
 
 ## Structure
 
