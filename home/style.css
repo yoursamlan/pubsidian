@@ -1,0 +1,264 @@
+/* CUSTOM SCROLLBAR*/
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background-color: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #24388b;
+}
+
+* {
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #000011;
+}
+
+h1 {
+	font-size: 8vw;
+}
+
+#graph {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+}
+
+.sections {
+	position: relative;
+	top: 0;
+	color: #8e7fff;
+}
+
+.section {
+	height: 100vh;
+}
+
+.section.full-height {
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.article {
+	width: 80vw;
+	margin: auto;
+	color: #eee;
+	padding: 10vw;
+	background: #000;
+}
+
+.article a {
+	text-decoration: none;
+	color: red;
+}
+
+.article img {
+	width: 90%;
+}
+
+.inner-grid {
+	display: grid;
+	color: #fff;
+	padding: 5%;
+	text-transform: uppercase;
+	font-family: "montserrat", "comfortaa", sans-serif;
+	font-size: 0.75em;
+}
+
+.inner-grid img {
+	align-content: center;
+	margin: auto;
+	max-width: 80%;
+}
+
+.inner-grid p {
+	margin-left: auto;
+	max-width: 80%;
+	/*background-color: #24388b;*/
+	padding: 0.5em 1em;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	border: 1px solid #747474;
+	text-align: center;
+	visibility: hidden;
+}
+
+.inner-grid p a {
+	text-decoration: none;
+	color: #dac9ff;
+}
+
+#vbutton {
+	/*width: 20vw;*/
+	background-color: #24388b;
+	text-decoration: none;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #fff;
+	border-radius: 10px;
+}
+
+#vbutton:hover {
+	background: #4569ff;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 0;
+}
+
+#comparison {
+	width: 100%;
+	padding-bottom: 100%;
+	/*overflow: hidden;*/
+	position: relative;
+}
+
+figure {
+	position: absolute;
+	background-image: url("https://user-images.githubusercontent.com/33586885/128595527-d8799497-271a-4dab-9019-90b8346c9d61.png");
+	background-size: cover;
+	font-size: 0;
+	width: 100%;
+	height: 56.2%;
+	margin: 0;
+}
+
+#divisor {
+	background-image: url("https://user-images.githubusercontent.com/33586885/128595491-f812a105-63ba-4e77-858f-c68aa81d1d21.png");
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
+	bottom: 0;
+	height: 100%;
+}
+
+#divisor::before,
+#divisor::after {
+	content: "";
+	position: absolute;
+	right: -2px;
+	width: 4px;
+	height: calc(50% - 25px);
+	background: white;
+	z-index: 3;
+}
+
+#divisor::before {
+	top: 0;
+	box-shadow: 0 -3px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+#divisor::after {
+	bottom: 0;
+	box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+#handle {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	z-index: 1;
+}
+
+#handle::before,
+#handle::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 6px inset transparent;
+	position: absolute;
+	top: 50%;
+	margin-top: -6px;
+}
+
+#handle::before {
+	border-right: 6px solid white;
+	left: 50%;
+	margin-left: -17px;
+}
+
+#handle::after {
+	border-left: 6px solid white;
+	right: 50%;
+	margin-right: -17px;
+}
+
+input[type=range] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	position: absolute;
+	top: 28.1%;
+	left: 15px;
+	transform: translateY(-50%);
+	background-color: transparent;
+	width: calc(100% + 50px);
+	z-index: 2;
+}
+
+input[type=range]:focus,
+input[type=range]:active {
+	border: none;
+	outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: none;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: transparent;
+	border: 4px solid white;
+	box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+input[type=range]::-moz-range-track {
+	-moz-appearance: none;
+	height: 15px;
+	width: 100%;
+	background-color: transparent;
+	position: relative;
+	outline: none;
+}
+
+.headings {
+	margin-bottom: 5vh;
+}
+
+.instructions {
+	font-family: 'montserrat', 'comfortaa';
+	letter-spacing: 3px;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 5vh;
+	padding-left: 20px;
+}
+
+#author {
+	color: #ce7fff;
+	font-weight: bold;
+	font-size: 110%;
+}

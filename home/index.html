@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Home | Pubsidian</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<!-- partial:index.partial.html -->
+	<div id="graph"></div>
+
+	<div class="sections">
+
+		<div class="section full-height">
+			<div class="inner-grid">
+				<img src="https://raw.githubusercontent.com/yoursamlan/pubsidian/main/CDN/pubsidian.png" alt="pubsidian">
+				<p>An <a href="https://obsidian.md/publish">Obsidian-Publish</a> alternative but it&#39;s FREE</p>
+				<a id="vbutton" href="https://yoursamlan.github.io/pubsidian" target="_blank">View Demo</a>
+			</div>
+
+
+		</div>
+
+		<div class="article">
+			<h2 class="headings">Screenshots</h2>
+			<p class="instructions"> Drag the slider below to view light/ dark mode.</p>
+
+			<div class="container">
+				<div id="comparison">
+					<figure>
+						<div id="handle"></div>
+						<div id="divisor"></div>
+					</figure>
+					<input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+
+				</div>
+
+			</div>
+
+
+
+
+
+			<footer>
+				<p class="instructions"> Created and maintained by <a href="https://github.com/yoursamlan" target="_blank"> <b id="author">Amlan Saha Kundu</b></a></p>
+
+			</footer>
+			<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+			<script src='https://unpkg.co/3d-force-graph'></script>
+			<!-- partial -->
+			<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+			<script src='https://unpkg.co/3d-force-graph'></script>
+			<script src="./script.js"></script>
+
+</body></html>
