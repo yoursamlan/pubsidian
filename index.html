@@ -1,1 +1,159 @@
-<html><head><meta name="title" content="Pubsidian"><meta name="description" content="Pubsidian - FREE and ELEGANT obsidian publish alternative, created by Amlan Saha Kundu to host Obsidian md notes to web at free of cost."><meta name="keywords" content="obsidian, digital note taking, notion, note taking, note, obsidian md, web hosting, host, amlan, amlan saha kundu, pubsidian"><meta name="robots" content="index, follow"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="language" content="English"><meta name="author" content="Amlan Saha Kundu"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/png" href="./CDN/favicon.png"/><title>pubsidian-3.2.1</title><link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'><link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'><a href="https://github.com/yoursamlan" target="_blank" pubsidian id="init"></a><link rel="stylesheet" href="./CDN/style.css" type="text/css"><!--script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script--></head><body><div id="wrapper"><div id="mySidebar" class="sidebar"><a href="javascript:void()" class="closebtn" onclick="closeNav()">×</a><div id="content"><div id='sideheader'><h4 id="headtext">MENU </h4></div><input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category"><ul id="myMenu"></ul><div class="debugdiv"><h4>Dark mode</h4><div id="dbgbtn"><label class="switch"><input type="checkbox" id="dbg"><span class="slider" onclick="togdarkmode()"></span></label></div></div></div></div><div id="pagecontent"><div id="heading"><button class="openbtn" id="hamb" onclick="openNav()">☰</button><div id="title"><h5>AMLAN's NOTEBOOK</h5></div><button class="openbtn" id="graphbtn" onclick="openGraph();setTimeout(showGraph(), 400);">🕸</button></div><div id="main"><h2 id="ContentHeading">A FREE Alternative to Obsidian Publish . . .<hr></h2><div id="mainContent"><img src="https://raw.githubusercontent.com/yoursamlan/pubsidian/main/CDN/pubsidian.png" alt="logo" style="height:10%; width:auto; display:block; margin-right:auto;padding:10px; float:none !important;"><p>Hey everyone! I'm <a href="https://github.com/yoursamlan" target="_blank"><b>Amlan</b></a>, a 21 year old self-taught web designer and developer from India. Welcome to my notebook. </p><h4>Reason behind this site...</h4><p>For the last couple of months, I'm using OBSIDIAN.md, a fantastic note-taking app, for tracking my studies and boosting productivity and I LOVE IT. But, after using for a while, yesterday, when I was about to present couple of notes to my friend, I had faced some serious challenges, publishing my notes.</p><p>Browsing into the forum, I've come to know about Obsidian-Publish and some other alternatives. While <b>Obsidian publish </b>costs <b><strike>12</strike> 8$ per month and works flawlessly </b> (which is btw a lot for the students like me with zero income😢), I have faced a hard time understanding its free alternatives. Also, all free alternatives lack the most interesting feature of OBSIDIAN, a.k.a the <b>Graph View</b>. </p><p>That's why after 20+ hours of code and 6 cups of coffee, here's my version of the free Obsidian Publish with <i>Graph View </i>🥳🥳....</p><ul><li>Click ☰ on top left to open the MENU.</li><li>Click 🕸 on top right to open the Graph.</li><li>On 'Menu', toggle the switch to enable/ disable dark mode.</li></ul><p> This page is <b>fully responsive.</b></p><p>Happy browsing 🙌... </p><!--p>Oh! by the way, now you can generate your own website from your obsidian-notes using the following steps:</p><ul style="padding: 1em 2em; border: 1px solid var(--font);"><li><p>STEP-1: CONVERSION:</p><ul><li><strong>Make sure, you have installed Python 3.5 or later.</strong></li><li>Now, <strong>fork and download</strong> <a href="https://github.com/yoursamlan/pubsidian">yoursamlan/pubsidian</a> to your local machine.</li><li>After downloading the repository, go to the <code>tools</code> directory.</li><li>Now open command prompt/ terminal and run<code>pip install requirements.txt</code></li><li>After installing the libraries successfully, copy <code>convert2web.py</code> from the tools directory to the obsidian directory, [i.e where your notes (.md) are stored.]</li><li>Now open the command prompt again and run<code>python convert2web.py</code></li><li>Enter your name. It will be reflected as <code>***&#39;S NOTEBOOK</code> in your pubsidian website.After running successfully, you&#39;ll get an <code>OUTPUT</code> directory, containing three elements: <code>index.html</code>,<code>data.json</code> and <code>pages</code> directory.</li></ul></li><li><p>STEP-2: HOSTING:</p><ul><li>Drag and drop your <code>OUTPUT</code> directory in <a href="&quot;https://app.netlify.com/drop&quot;">netlify</a></li></ul></li><p>Voila!! 🥳🥳 your site is online.</p></ul><p>Meanwhile, if you love my effort, you can <a href="https://www.buymeacoffee.com/yoursamlan" target="_blank">buy me a coffee.</a> That will be AWESOME 😊😊😊. Also, any feedback/ suggestion is highly appreciated.😊 </p--></div></div></div><div id="plotgraph"><a href="javascript:void()" id="closegraphbtn" onclick="closegraph(); setTimeout(location.reload.bind(location), 200);">×</a><div id="GraphView"></div></div></div><script src='https://d3js.org/d3.v3.min.js'></script>	<!--script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script--> <script src="./CDN/network.js"></script><script src="./CDN/script.js"></script><script src="./CDN/data.js" type="text/javascript"></script></body></html>
+<html>
+
+<head>
+    <meta name="title" content="Pubsidian">
+    <meta name="description"
+        content="Pubsidian - FREE and ELEGANT obsidian publish alternative, created by Amlan Saha Kundu to host Obsidian md notes to web at free of cost.">
+    <meta name="keywords"
+        content="obsidian, digital note taking, notion, note taking, note, obsidian md, web hosting, host, amlan, amlan saha kundu, pubsidian">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Amlan Saha Kundu">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='icon' type='image/png' href='./assets/img/favicon.png' />
+    <a href="https://github.com/yoursamlan" target="_blank" pubsidian id="init"></a>
+    <title>Pubsidian Neo 1.0 | Amlan</title>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <a href='https://github.com/yoursamlan' target='_blank' pubsidian id='init'></a>
+    <link rel='stylesheet' href='./assets/css/style.css' type='text/css'>
+</head>
+
+<body>
+    <div id='wrapper'>
+        <div id='mySidebar' class='sidebar'><a href='javascript:void()' class='closebtn' onclick='closeNav()'>×</a>
+            <div id='content'>
+                <div id='sideheader'>
+                    <h4 id='headtext'>MENU </h4>
+                </div><input type='text' id='mySearch' onkeyup='enhsearch()' placeholder='Search File, tag etc...'
+                    title='Type in a category'>
+                <ul id='myMenu'></ul>
+                <div class='debugdiv'>
+                    <h4>Dark mode</h4>
+                    <div id='dbgbtn'><label class='switch'><input type='checkbox' id='dbg'><span class='slider'
+                                onclick='togdarkmode()'></span></label></div>
+                </div>
+                <button id="shareBTN" onclick="share()">Share Current Note</button>
+            </div>
+        </div>
+        <div id='pagecontent'>
+            <div id='heading'><button class='openbtn' id='hamb' onclick='openNav()'>☰</button>
+                <div id='title'>
+                    <h5>Amlan's Alchemy Cheatsheet</h5>
+                </div><button class='openbtn' id='graphbtn'
+                    onclick='openGraph();setTimeout(showGraph(), 400);'>&#128376;</button>
+            </div>
+            <div id='main'>
+                <h1 id='ContentHeading'>Welcome to Pubsidian Neo
+                    <hr>
+                </h1>
+                <div id='mainContent'><img
+                        src='https://raw.githubusercontent.com/yoursamlan/pubsidian/main/CDN/pubsidian.png' alt='logo'
+                        style='height:10%; width:auto; display:block; margin-right:auto;float:none !important;'>
+                    <p>Version: 1.0-beta <br>Developed by: <a href='https://github.com/yoursamlan' target='_blank'
+                            style='color: #9af'>Amlan Saha Kundu</a></p>
+
+                    <div>
+                        <h3>What's New in Pubsidian Neo ?</h3>
+                        <ul>
+                            <li>Thank you for your support and feedback, I have added many new features as well as fixed
+                                some known bugs from the previous version.</li>
+                            <li>Here's a comprehensive list of newly added features in this "Neo" version.</li>
+
+                            <ul>
+                                <div>
+                                    <li><img src="./assets/img/Pubsidian NEO/s3.png"></li>
+                                    <li><b>Search 2.0</b></li>
+                                    <li>
+                                        <ul>
+                                            <li>You can now search tags with full-text support with new Search 2.0.
+                                            </li>
+                                            <li>However, in this demo, you can only search couple of tags like "primary
+                                                element", "tools", etc. along with traditional file name search.</li>
+                                            <li>Since, this example contains highly co-related data, I have decided to
+                                                disable full-text search for this particular example.</li>
+                                        </ul>
+                                    </li>
+                                    <li></li>
+                                    <li><b>Share Now</b></li>
+                                    <li>
+                                        <ul>
+                                            <li>Share Now help you to share your current note with others. </li>
+                                            <li>To share your current note, just click the "Share Current Note" button
+                                                from
+                                                the sidebar.</li>
+                                            <li>It will automatically copy the URL of your current note to your
+                                                clipboard.
+                                            </li>
+                                            <li>Simply send the copied URL with someone to share the note</li>
+                                        </ul>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li>
+                                        <img src="./assets/img/Pubsidian NEO/s5.png">
+                                    </li>
+                                    <li><b>Graph 2.0</b></li>
+                                    <li>
+                                        <ul>
+                                            <li>Previously in Graph 1.0, one can only view the correlation of the notes
+                                                in
+                                                it. To open them, one had to go the sidebar menu. </li>
+                                            <li>Graph 2.0 has removed this drawback. Now you can simply click on the
+                                                name of
+                                                the node to open them in the Content section. </li>
+                                            <li>Also, Graph 2.0 introduces new color scheme, for better visualization.
+                                            </li>
+                                            <li>You can now also view unlimited number of nodes in Graph 2.0</li>
+                                            <li><img src="./assets/img/Pubsidian NEO/s1.png"></li>
+                                        </ul>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li><b>CORE 2.0</b></li>
+                                    <li>
+                                        <ul>
+                                            <li>New Pubsidian CORE, namely <em>data2.json</em> gives you the flexibility
+                                                to
+                                                choose the notes to list in pubsidian.</li>
+                                            <li>To refrain a note from listing in the main mwnu, simply set the
+                                                <b>"list"</b> value of the corresponding note to <b>false</b> in the
+                                                <em>data2.json</em>.</li>
+                                            <li><img src="./assets/img/Pubsidian NEO/s7.png"></li>
+                                            <li>You can now also add custom tag and descriptions in <em>data2.json</em>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </ul>
+                        </ul>
+
+
+                    </div>
+
+                    <h3>Help</h3>
+                    <ul>
+                        <li>Click ☰ on top left to open the MENU.</li>
+                        <li>Click on your desired note to open.</li>
+                        <li>To search a note, enter the name of the note in the search-bar</li>
+                        <li>Click &#128376; on top right to open the Graph.</li>
+                        <li>On 'Menu', toggle the switch to enable/ disable dark mode.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id='plotgraph'><a href='javascript:void()' id='closegraphbtn'
+                onclick='closegraph(); setTimeout(location.reload.bind(location), 200);'>×</a>
+            <div id='GraphView'></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
+    <script src='https://d3js.org/d3.v3.min.js'></script>
+    <script src='./assets/js/network2.js'></script>
+    <script src='./assets/js/script2.js'></script>
+    <script src='./assets/js/data2.js' type='text/javascript'></script>
+    <script src='./assets/js/zoom.js' type='text/javascript'></script>
+</body>
+
+</html>

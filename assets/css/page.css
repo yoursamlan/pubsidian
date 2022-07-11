@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Libre+Baskerville&display=swap");
+
+::-webkit-scrollbar {
+	width: 3px;
+	height: 0px;
+}
+
+.flexbox {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	justify-content: space-between;
+	height: 82vh;
+}
+
+.flexbox > div {
+	text-align: center;
+	margin: 0px;
+	resize resize: horizontal;
+}
+
+.flexbox > .left {
+	width: 100%;
+	height: 50%;
+
+}
+
+.main::-webkit-scrollbar {
+	width: 0px;
+}
+
+#zoo::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+	/* Safari and Chrome */
+}
+
+.flexbox > .center {
+	background-color: #36abe1;
+}
+
+.flexbox > .right {
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-top: 5vh;
+	margin-right: 50px;
+}
+
+/*
+img {
+  width: 100%;
+  height: 100%;
+}*/
+/*
+@media (min-width: 768px) {
+  .flexbox {
+    flex-flow: row nowrap;
+  }
+  .flexbox > div {
+    width: 33.33% !important;
+  }
+  .flexbox > .left {
+    order: 1;
+  }
+  .flexbox > .center {
+    order: 2;
+  }
+  .flexbox > .right {
+    order: 3;
+  }
+}
+*/
+
+#zoo {
+	margin: 0;
+	max-width: 100vw;
+	max-height: 100%;
+	overflow: scroll;
+	padding: 0;
+}
+
+#navbar {
+	position: absolute;
+	top: 40%;
+	left: 80px;
+	display: inline-grid;
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 8px 12px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#navbar button {
+	padding: auto;
+	margin: 5px;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	background: rgba(255, 255, 200, 0.5);
+	box-shadow: 0 8px 16px 0 rgba(31, 38, 135, 0.37);
+}
+
+#navbar a {
+	float: left;
+	display: block;
+	color: #666;
+	text-align: center;
+	padding-right: 0;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+#navbar a.active {
+	background-color: #4caf50;
+	color: white;
+}
+
+.main {
+	padding: 0px;
+	margin-top: 0px;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	cursor: grab;
+	cursor: -o-grab;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
+}
+
+.main img {
+	height: auto;
+	width: auto;
+}
+
+/* TEXT*/
+
+#mainContent {
+	padding: 15vh 30px 20vh 40px;
+	font-family: "Libre Baskerville", "CMU Serif";
+	text-align: right;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+#right-control {
+	position: absolute;
+	bottom: 60px;
+	right: 3%;
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.12);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#left-control {
+	position: absolute;
+	bottom: 130px;
+	right: 3%;
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.12);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.control-button {
+	height: 40px;
+	width: 40px;
+	margin: 10px 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	background: rgba(255, 255, 200, 0.5);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+#right-control:hover,
+#left-control:hover {
+	background: #e3d5ff;
+}
+
+
+
+@media (min-width: 900px) {
+	.flexbox {
+		flex-flow: row wrap;
+	}
+
+	.flexbox > .left {
+		order: 1;
+		flex: 0.5;
+		width: 10%;
+		height: 100%;
+		resize: horizontal;
+	}
+
+	.flexbox > .right {
+		order: 2;
+		flex: 0.5;
+		margin: 0;
+		resize: horizontal;
+	}
+
+	.flexbox > .center {
+		order: 3;
+		height: 100%;
+		width: 100%;
+	}
+
+	#zoo {
+		max-width: 50vw;
+		max-height: 100%;
+	}
+
+	#navbar {
+		top: 80%;
+		left: 150px;
+	}
+
+	#left-control,
+	#right-control {
+		right: 1%;
+	}
+}

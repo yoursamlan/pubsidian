@@ -1,0 +1,18 @@
+.header > h2 {
+	margin: 4rem 0;
+	padding-top: 2rem;
+	color: #fc2f2f;
+}
+
+
+#ft {
+	font-size: 1.5em;
+	padding-left: 25%;
+}
+
+ul,
+ol {
+	margin-left: 10%;
+	list-style-type: none;
+
+}
