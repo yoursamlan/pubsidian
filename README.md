@@ -4,7 +4,9 @@ An [Obsidian-Publish](https://obsidian.md/publish) alternative but it's FREE
 
 ![![pubsidian](https://img.shields.io/badge/Demo-Active-brightgreen)](https://img.shields.io/badge/Initial%20Build-Success-brightgreen) ![![pubsidian](https://github.com/yoursamlan/pubsidian/releases/download/Windows/PubsidianConverter1.0alpha.exe)](https://img.shields.io/badge/Final%20Release-alpha-yellowgreen) [![pubsidian](https://img.shields.io/badge/Demo-Active-brightgreen)](https://yoursamlan.github.io/pubsidian)
 
-For demo, [Click Here](https://yoursamlan.github.io/pubsidian)
+For NEW demo, [Click Here](https://yoursamlan.github.io/pubsidian)
+
+For OLD demo, [Click Here](https://yoursamlan.github.io/pubsidian/old)
 
 ---
 ## Screenshots
