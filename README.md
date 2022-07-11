@@ -6,7 +6,7 @@ An [Obsidian-Publish](https://obsidian.md/publish) alternative but it's FREE
 
 For NEW demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 
-For OLD demo, [Click Here](https://yoursamlan.github.io/pubsidian/old)
+For OLD demo, [Click Here](https://yoursamlan.github.io/pubsidian/OLD)
 
 ---
 
