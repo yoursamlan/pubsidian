@@ -9,6 +9,39 @@ For NEW demo, [Click Here](https://yoursamlan.github.io/pubsidian)
 For OLD demo, [Click Here](https://yoursamlan.github.io/pubsidian/old)
 
 ---
+
+ ### What's New in Pubsidian Neo ?
+
+*   Thank you for your support and feedback, I have added many new features as well as fixed some known bugs from the previous version.
+*   Here's a comprehensive list of newly added features in this "Neo" version.
+
+*   ![Search2.0 and Share 2.0](https://github.com/yoursamlan/pubsidian/blob/main/assets/img/Pubsidian%20NEO/s3.png?raw=true)
+*   **Search 2.0**
+*   *   You can now search tags with full-text support with new Search 2.0.
+    *   However, in this demo, you can only search couple of tags like "primary element", "tools", etc. along with traditional file name search.
+    *   Since, this example contains highly co-related data, I have decided to disable full-text search for this particular example.
+
+*   **Share Now**
+*   *   Share Now help you to share your current note with others.
+    *   To share your current note, just click the "Share Current Note" button from the sidebar.
+    *   It will automatically copy the URL of your current note to your clipboard.
+    *   Simply send the copied URL with someone to share the note
+
+*   ![Graph 2.0](https://github.com/yoursamlan/pubsidian/blob/main/assets/img/Pubsidian%20NEO/s5.png?raw=true)
+*   **Graph 2.0**
+*   *   Previously in Graph 1.0, one can only view the correlation of the notes in it. To open them, one had to go the sidebar menu.
+    *   Graph 2.0 has removed this drawback. Now you can simply click on the name of the node to open them in the Content section.
+    *   Also, Graph 2.0 introduces new color scheme, for better visualization.
+    *   You can now also view unlimited number of nodes in Graph 2.0
+    *   ![Graph 2.0](https://github.com/yoursamlan/pubsidian/blob/main/assets/img/Pubsidian%20NEO/s1.png?raw=true)
+
+*   **CORE 2.0**
+*   *   New Pubsidian CORE, namely _data2.json_ gives you the flexibility to choose the notes to list in pubsidian.
+    *   To refrain a note from listing in the main mwnu, simply set the **"list"** value of the corresponding note to **false** in the _data2.json_.
+    *   ![CORE 2.0](https://github.com/yoursamlan/pubsidian/blob/main/assets/img/Pubsidian%20NEO/s7.png?raw=true)
+    *   You can now also add custom tag and descriptions in _data2.json_
+
+---
 ## Screenshots
 
 <!--(![Lightmode](https://user-images.githubusercontent.com/33586885/127748655-8621a2cd-ee11-4834-8431-98ae413543a2.png))-->
