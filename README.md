@@ -232,7 +232,7 @@ Voila!! 🥳🥳 your site is online.
 - [x] ~~Auto-generated internal navigation.~~ (ver 2.0)
 - [x] ~~One-click convert - convert and host your obsidian notes just with a click.~~ (ver 3.0)
 - [x] ~~Latex rendering.~~ (ver 3.2)
-- [ ] Adding content search and tags.
+- [x] ~~Adding content search and tags~~.(Ver Neo1.0)
 - [ ] Theme supports and other customization.
 
 ## Disclaimer
